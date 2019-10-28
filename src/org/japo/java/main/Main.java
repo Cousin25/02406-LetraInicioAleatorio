@@ -28,20 +28,15 @@ public class Main {
     public static void main(String[] args) {
         final char LETRA_INI = 'A';
         final char LETRA_FIN = 'Z';
-        
-       
+
         char letra, letraChoice;
         String lista = "qwertyuiopasdfghjklñzxcvbnmáéíóúü";
 
         letra = (char) (RND.nextInt(LETRA_FIN - LETRA_INI + 1) + LETRA_INI);
-        
-        
+
         letraChoice = lista.charAt(RND.nextInt(lista.length()));
-        
-        
+
         System.out.printf("Letra de inicio de examen..............: %c%n", letra);
         System.out.printf("Caracter aleatorio letra en español....: %C%n", letraChoice);
-
     }
-
 }
